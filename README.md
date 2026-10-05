@@ -16,14 +16,11 @@
 
 I'm a Computer Science student from Thrissur, Kerala. I build AI-powered products and contribute to open source, mostly around healthcare.
 
-My rule for AI in healthcare: AI reads, rules validate, humans decide.
-
 ---
 
 ### 🌱 What I'm working on
 
 - **[RxGuard](https://github.com/rahulmj2004/RxGuard):** a prescription review system for pharmacists. It flags medication-safety concerns and backs each one with evidence, while the pharmacist makes the final call.
-- **JeevaFlow:** turns scattered medical documents and messages into one source-linked patient journey, and tracks every doctor's instruction until someone confirms it was followed through.
 - **[Intelligent IoT Anomaly Detection](https://github.com/rahulmj2004/intelligent-iot-anomaly-detection-v2):** detecting anomalies in IoT sensor data with Python.
 
 ---
