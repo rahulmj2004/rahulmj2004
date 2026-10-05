@@ -19,6 +19,11 @@
 </p>
 
 <p>
+  <img src="./assets/h-contrib.svg" alt="Contributions" width="100%" />
+  <img src="./assets/dragon.svg" alt="A dragon flying through my GitHub contribution calendar: 20 contributions in the last year" width="100%" />
+</p>
+
+<p>
   <img src="./assets/h-tools.svg" alt="Tools I use" width="100%" />
   <img src="./tools.svg" alt="Python, Java, TypeScript, React, Django, FastAPI" width="100%" />
 </p>
