@@ -1,77 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 156" width="1200" height="156" role="img" aria-label="Pull request #16880 to ohcnetwork/care_fe (open): Enforce patient notes permissions">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 116" width="1200" height="116" role="img" aria-label="Pull request #16880 to ohcnetwork/care_fe (open): Enforce patient notes permissions">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#050a14"/><stop offset="0.6" stop-color="#0d1330"/><stop offset="1" stop-color="#241f6e"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1220"/><stop offset="1" stop-color="#121c33"/></linearGradient>
+    <linearGradient id="acc" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="1200" y2="0" spreadMethod="repeat">
+      <stop offset="0" stop-color="#6366f1"/><stop offset="0.5" stop-color="#38bdf8"/><stop offset="1" stop-color="#6366f1"/>
+      <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="1200 0" dur="9s" repeatCount="indefinite"/>
     </linearGradient>
-    <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#4ade80" stop-opacity="0"/><stop offset="0.85" stop-color="#4ade80" stop-opacity="0.06"/><stop offset="1" stop-color="#bbf7d0" stop-opacity="0.18"/>
-    </linearGradient>
-    <filter id="blur" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="50"/></filter>
-    <pattern id="lines" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#000000" fill-opacity="0.12"/></pattern>
-    <clipPath id="card"><rect width="1200" height="156" rx="18"/></clipPath>
+    <filter id="blur" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="60"/></filter>
+    <clipPath id="clip"><rect width="1200" height="116" rx="16"/></clipPath>
   </defs>
-  <g clip-path="url(#card)">
-    <rect width="1200" height="156" fill="url(#bg)"/>
-    <g filter="url(#blur)" opacity="0.55">
-      <circle cx="1020" cy="156" r="94" fill="#a78bfa" opacity="0.5">
-        <animate attributeName="cx" dur="9s" repeatCount="indefinite" values="1020;660;1020" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
-      </circle>
-      <circle cx="120" cy="0" r="80" fill="#4f46e5">
-        <animate attributeName="cx" dur="11s" repeatCount="indefinite" values="120;420;120" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
-      </circle>
-    </g>
-    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-weight="700">
-      <text x="44" y="52" font-size="18" fill="#a78bfa">ohcnetwork/care_fe  #16880</text>
-      <rect x="1052" y="30" width="104" height="32" rx="16" fill="#4ade80" fill-opacity="0.16" stroke="#4ade80" stroke-width="1.5"/>
-      <circle cx="1074" cy="46" r="5" fill="#4ade80"><animate attributeName="opacity" dur="1.2s" repeatCount="indefinite" values="1;0.2;1"/></circle>
-      <text x="1088" y="52" font-size="16" fill="#4ade80">OPEN</text>
-    </g>
-    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">
-      <text x="44" y="98" font-size="22" font-weight="600" fill="#ffffff">E<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.0326;0.9625"/></text>
-      <text x="57.31" y="98" font-size="22" font-weight="600" fill="#ffffff">n<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.034;0.9625"/></text>
-      <text x="70.62" y="98" font-size="22" font-weight="600" fill="#ffffff">f<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.0353;0.9625"/></text>
-      <text x="83.93" y="98" font-size="22" font-weight="600" fill="#ffffff">o<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.0367;0.9625"/></text>
-      <text x="97.24" y="98" font-size="22" font-weight="600" fill="#ffffff">r<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.038;0.9625"/></text>
-      <text x="110.55" y="98" font-size="22" font-weight="600" fill="#ffffff">c<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.0394;0.9625"/></text>
-      <text x="123.86" y="98" font-size="22" font-weight="600" fill="#ffffff">e<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.0408;0.9625"/></text>
-      <text x="150.48" y="98" font-size="22" font-weight="600" fill="#ffffff">p<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.0435;0.9625"/></text>
-      <text x="163.79" y="98" font-size="22" font-weight="600" fill="#ffffff">a<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.0448;0.9625"/></text>
-      <text x="177.1" y="98" font-size="22" font-weight="600" fill="#ffffff">t<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.0462;0.9625"/></text>
-      <text x="190.41" y="98" font-size="22" font-weight="600" fill="#ffffff">i<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.0476;0.9625"/></text>
-      <text x="203.72" y="98" font-size="22" font-weight="600" fill="#ffffff">e<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.0489;0.9625"/></text>
-      <text x="217.03" y="98" font-size="22" font-weight="600" fill="#ffffff">n<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.0503;0.9625"/></text>
-      <text x="230.34" y="98" font-size="22" font-weight="600" fill="#ffffff">t<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.0516;0.9625"/></text>
-      <text x="256.96" y="98" font-size="22" font-weight="600" fill="#ffffff">n<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.0543;0.9625"/></text>
-      <text x="270.27" y="98" font-size="22" font-weight="600" fill="#ffffff">o<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.0557;0.9625"/></text>
-      <text x="283.58" y="98" font-size="22" font-weight="600" fill="#ffffff">t<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.0571;0.9625"/></text>
-      <text x="296.89" y="98" font-size="22" font-weight="600" fill="#ffffff">e<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.0584;0.9625"/></text>
-      <text x="310.2" y="98" font-size="22" font-weight="600" fill="#ffffff">s<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.0598;0.9625"/></text>
-      <text x="336.82" y="98" font-size="22" font-weight="600" fill="#ffffff">p<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.0625;0.9625"/></text>
-      <text x="350.13" y="98" font-size="22" font-weight="600" fill="#ffffff">e<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.0639;0.9625"/></text>
-      <text x="363.44" y="98" font-size="22" font-weight="600" fill="#ffffff">r<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.0652;0.9625"/></text>
-      <text x="376.75" y="98" font-size="22" font-weight="600" fill="#ffffff">m<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.0666;0.9625"/></text>
-      <text x="390.06" y="98" font-size="22" font-weight="600" fill="#ffffff">i<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.0679;0.9625"/></text>
-      <text x="403.37" y="98" font-size="22" font-weight="600" fill="#ffffff">s<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.0693;0.9625"/></text>
-      <text x="416.68" y="98" font-size="22" font-weight="600" fill="#ffffff">s<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.0707;0.9625"/></text>
-      <text x="429.99" y="98" font-size="22" font-weight="600" fill="#ffffff">i<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.072;0.9625"/></text>
-      <text x="443.3" y="98" font-size="22" font-weight="600" fill="#ffffff">o<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.0734;0.9625"/></text>
-      <text x="456.61" y="98" font-size="22" font-weight="600" fill="#ffffff">n<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.0747;0.9625"/></text>
-      <text x="469.92" y="98" font-size="22" font-weight="600" fill="#ffffff">s<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.0761;0.9625"/></text>
-      <rect x="483.23" y="79.1" width="11.0" height="23.8" fill="#a78bfa">
-        <animate attributeName="x" dur="16.0s" repeatCount="indefinite" calcMode="discrete" values="44;44;57.31;70.62;83.93;97.24;110.55;123.86;137.17;150.48;163.79;177.1;190.41;203.72;217.03;230.34;243.65;256.96;270.27;283.58;296.89;310.2;323.51;336.82;350.13;363.44;376.75;390.06;403.37;416.68;429.99;443.3;456.61;469.92;483.23;44" keyTimes="0;0.0312;0.0326;0.034;0.0353;0.0367;0.038;0.0394;0.0408;0.0421;0.0435;0.0448;0.0462;0.0476;0.0489;0.0503;0.0516;0.053;0.0543;0.0557;0.0571;0.0584;0.0598;0.0611;0.0625;0.0639;0.0652;0.0666;0.0679;0.0693;0.0707;0.072;0.0734;0.0747;0.0761;0.9625"/>
-        <animate attributeName="y" dur="16.0s" repeatCount="indefinite" calcMode="discrete" values="79.08;79.08;79.08;79.08;79.08;79.08;79.08;79.08;79.08;79.08;79.08;79.08;79.08;79.08;79.08;79.08;79.08;79.08;79.08;79.08;79.08;79.08;79.08;79.08;79.08;79.08;79.08;79.08;79.08;79.08;79.08;79.08;79.08;79.08;79.08;79.08" keyTimes="0;0.0312;0.0326;0.034;0.0353;0.0367;0.038;0.0394;0.0408;0.0421;0.0435;0.0448;0.0462;0.0476;0.0489;0.0503;0.0516;0.053;0.0543;0.0557;0.0571;0.0584;0.0598;0.0611;0.0625;0.0639;0.0652;0.0666;0.0679;0.0693;0.0707;0.072;0.0734;0.0747;0.0761;0.9625"/>
-        <animate attributeName="opacity" dur="0.8s" repeatCount="indefinite" calcMode="discrete" values="1;0" keyTimes="0;0.5"/>
-      </rect>
-    </g>
-    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="17" font-weight="600" fill="#a78bfa">
-      <text x="1122" y="130" text-anchor="end">view pull request</text>
-      <text x="1132" y="130">-&gt;<animateTransform attributeName="transform" type="translate" dur="1.2s" repeatCount="indefinite" values="0 0;10 0;0 0" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/></text>
-    </g>
-    <rect width="1200" height="156" fill="url(#lines)"/>
-    <rect x="-140" y="0" width="140" height="156" fill="url(#sweep)"><animate attributeName="x" dur="5s" repeatCount="indefinite" values="-140;1200"/></rect>
-    <rect x="1" y="1" width="1198" height="154" rx="18" fill="none" stroke="#a78bfa" stroke-opacity="0.3" stroke-width="2"/>
-    <rect x="2" y="2" width="1196" height="152" rx="18" fill="none" stroke="#a78bfa" stroke-width="3" stroke-linecap="round" stroke-dasharray="220 2445.1">
-      <animate attributeName="stroke-dashoffset" dur="6s" repeatCount="indefinite" values="2665.1;0"/>
-    </rect>
+  <g clip-path="url(#clip)">
+    <rect width="1200" height="116" fill="url(#bg)"/>
+    <circle cx="984" cy="116" r="120" fill="#6366f1" opacity="0.22" filter="url(#blur)">
+      <animate attributeName="cx" dur="16s" repeatCount="indefinite" values="984;720;984" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
+    </circle>
+    <text x="44" y="46" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="2.5" fill="#8b9bb4">PULL REQUEST  ·  ohcnetwork/care_fe #16880</text>
+    <text x="44" y="84" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="24" font-weight="600" fill="#f8fafc" text-anchor="start">Enforce patient notes permissions</text>
+    <rect x="1040" y="38" width="116" height="36" rx="18" fill="#16213a" stroke="#34d399"/>
+    <circle cx="1064" cy="56" r="5" fill="#34d399"/>
+    <circle cx="1064" cy="56" r="5" fill="none" stroke="#34d399"><animate attributeName="r" dur="2.4s" repeatCount="indefinite" values="5;13"/><animate attributeName="opacity" dur="2.4s" repeatCount="indefinite" values="0.8;0"/></circle>
+    <text x="1080" y="62" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#34d399">Open</text>
+    
+    <rect x="0.5" y="0.5" width="1199" height="115" rx="16" fill="none" stroke="#263248"/>
   </g>
 </svg>
