@@ -17,6 +17,20 @@
       <g><animateTransform attributeName="transform" type="translate" from="0 236" to="-600 236" dur="26s" repeatCount="indefinite"/><path d="M0 0 q150 -26 300 0 t300 0 t300 0 t300 0 t300 0 t300 0"/></g>
       <g><animateTransform attributeName="transform" type="translate" from="-600 262" to="0 262" dur="34s" repeatCount="indefinite"/><path d="M0 0 q150 -26 300 0 t300 0 t300 0 t300 0 t300 0 t300 0"/></g>
     </g>
+    <defs><filter id="glow" x="-200%" y="-20%" width="500%" height="140%"><feGaussianBlur stdDeviation="7"/></filter></defs>
+    <rect width="1200" height="300" fill="#bfdbfe" opacity="0"><animate attributeName="opacity" dur="7s" repeatCount="indefinite" values="0;0;0.07;0;0.05;0;0" keyTimes="0;0.30;0.32;0.34;0.36;0.40;1"/></rect>
+    <g opacity="0" fill="none" stroke-linecap="round" stroke-linejoin="round"><animate attributeName="opacity" dur="7s" begin="0s" repeatCount="indefinite" values="0;0;1;0.15;0.85;0;0" keyTimes="0;0.30;0.32;0.34;0.36;0.40;1"/>
+      <path d="M852 -6 L836 44 L858 62 L828 118 L850 134 L818 206" stroke="#38bdf8" stroke-width="9" opacity="0.35" filter="url(#glow)"/>
+      <path d="M828 118 L796 140 L804 158 L778 184" stroke="#38bdf8" stroke-width="6" opacity="0.3" filter="url(#glow)"/>
+      <path d="M852 -6 L836 44 L858 62 L828 118 L850 134 L818 206" stroke="#e0f2fe" stroke-width="2.4"/>
+      <path d="M828 118 L796 140 L804 158 L778 184" stroke="#e0f2fe" stroke-width="1.4"/>
+    </g>
+    <g opacity="0" fill="none" stroke-linecap="round" stroke-linejoin="round"><animate attributeName="opacity" dur="11s" begin="0s" repeatCount="indefinite" values="0;0;1;0.15;0.85;0;0" keyTimes="0;0.62;0.635;0.65;0.665;0.69;1"/>
+      <path d="M612 -6 L624 30 L600 52 L622 96 L598 150" stroke="#38bdf8" stroke-width="9" opacity="0.35" filter="url(#glow)"/>
+      <path d="M622 96 L650 112 L644 132" stroke="#38bdf8" stroke-width="6" opacity="0.3" filter="url(#glow)"/>
+      <path d="M612 -6 L624 30 L600 52 L622 96 L598 150" stroke="#e0f2fe" stroke-width="2.4"/>
+      <path d="M622 96 L650 112 L644 132" stroke="#e0f2fe" stroke-width="1.4"/>
+    </g>
     <text x="72" y="92" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="2.5" fill="#8b9bb4">HELLO, I&#x27;M</text>
     <text x="69" y="166" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="76" font-weight="800" fill="#f8fafc" text-anchor="start">Rahul M J</text>
     <rect x="72" y="190" width="96" height="4" rx="2" fill="url(#acc)"/>
