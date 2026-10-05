@@ -1,28 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 116" width="1200" height="116" role="img" aria-label="Pull request #16943 to ohcnetwork/care_fe (open): Show schedule exception reasons in a tooltip">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 118" width="1200" height="118" role="img" aria-label="Pull request #16943 to ohcnetwork/care_fe (open): Show schedule exception reasons in a tooltip">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#050405"/><stop offset="1" stop-color="#16070a"/></linearGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#090a0d"/><stop offset="1" stop-color="#181a20"/></linearGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff3b0" stop-opacity="0.55"/><stop offset="1" stop-color="#fff3b0" stop-opacity="0"/></linearGradient>
+    <linearGradient id="rev" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22c55e"/><stop offset="0.6" stop-color="#fbbf24"/><stop offset="1" stop-color="#e10600"/></linearGradient>
+    <pattern id="carbon" width="8" height="8" patternUnits="userSpaceOnUse"><path d="M0 8 L8 0" stroke="#ffffff" stroke-opacity="0.035" stroke-width="2"/></pattern>
+    <pattern id="chk" width="16" height="16" patternUnits="userSpaceOnUse"><rect width="16" height="16" fill="#0a0a0b"/><rect width="8" height="8" fill="#f5f5f4"/><rect x="8" y="8" width="8" height="8" fill="#f5f5f4"/>
+      <animateTransform attributeName="patternTransform" type="translate" from="0 0" to="16 0" dur="1.6s" repeatCount="indefinite"/></pattern>
     <filter id="blur" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="55"/></filter>
-    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5"/></filter>
-    <clipPath id="clip"><rect width="1200" height="116" rx="16"/></clipPath>
+    <clipPath id="clip"><rect width="1200" height="118" rx="16"/></clipPath>
   </defs>
   <g clip-path="url(#clip)">
-    <rect width="1200" height="116" fill="url(#bg)"/>
-    <circle cx="960" cy="116" r="120" fill="#7f1d1d" opacity="0.35" filter="url(#blur)">
-      <animate attributeName="cx" dur="17s" repeatCount="indefinite" values="960;660;960" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
-      <animate attributeName="opacity" dur="5s" repeatCount="indefinite" values="0.35;0.2;0.35"/>
+    <rect width="1200" height="118" fill="url(#bg)"/>
+    <rect width="1200" height="118" fill="url(#carbon)"/>
+    <circle cx="960" cy="118" r="120" fill="#e10600" opacity="0.2" filter="url(#blur)">
+      <animate attributeName="cx" dur="14s" repeatCount="indefinite" values="960;600;960" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
     </circle>
-    <g fill="#d6d3d1" filter="url(#blur)" opacity="0.07">
-      <ellipse cx="200" cy="106" rx="340" ry="35"><animate attributeName="cx" dur="28s" repeatCount="indefinite" values="200;1000;200"/></ellipse>
-      <ellipse cx="1050" cy="116" rx="300" ry="29"><animate attributeName="cx" dur="36s" repeatCount="indefinite" values="1050;250;1050"/></ellipse>
-    </g>
-    <text x="44" y="46" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="3" fill="#ef4444">PULL REQUEST  ·  ohcnetwork/care_fe #16943</text>
-    <text x="44" y="84" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="24" font-weight="600" fill="#ece7e1" text-anchor="start">Show schedule exception reasons in a tooltip</text>
-    <rect x="1040" y="38" width="116" height="36" rx="18" fill="#12140a" stroke="#a3e635"/>
-    <circle cx="1064" cy="56" r="5" fill="#a3e635"/>
-    <circle cx="1064" cy="56" r="5" fill="none" stroke="#a3e635"><animate attributeName="r" dur="2.4s" repeatCount="indefinite" values="5;13"/><animate attributeName="opacity" dur="2.4s" repeatCount="indefinite" values="0.8;0"/></circle>
-    <text x="1080" y="62" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#a3e635">Open</text>
+    <text x="44" y="48" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="800" letter-spacing="3" fill="#e10600">PULL REQUEST  ·  ohcnetwork/care_fe #16943</text>
+    <text x="44" y="86" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="24" font-weight="700" fill="#f5f5f4" text-anchor="start">Show schedule exception reasons in a tooltip</text>
+    <circle cx="958" cy="58" r="7" fill="#2a0806"/><circle cx="958" cy="58" r="7" fill="#e10600" opacity="0"><animate attributeName="opacity" dur="5s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.08;0.09;0.55;0.56;1"/></circle><circle cx="980" cy="58" r="7" fill="#2a0806"/><circle cx="980" cy="58" r="7" fill="#e10600" opacity="0"><animate attributeName="opacity" dur="5s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.18;0.19;0.55;0.56;1"/></circle><circle cx="1002" cy="58" r="7" fill="#2a0806"/><circle cx="1002" cy="58" r="7" fill="#e10600" opacity="0"><animate attributeName="opacity" dur="5s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.28;0.29;0.55;0.56;1"/></circle><circle cx="1024" cy="58" r="7" fill="#2a0806"/><circle cx="1024" cy="58" r="7" fill="#e10600" opacity="0"><animate attributeName="opacity" dur="5s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.38;0.39;0.55;0.56;1"/></circle>
+    <rect x="1050" y="40" width="106" height="36" rx="18" fill="#0f1a12" stroke="#22c55e"/>
+    <circle cx="1072" cy="58" r="6" fill="#22c55e"><animate attributeName="opacity" dur="5s" repeatCount="indefinite" values="0.3;0.3;1;1;0.3" keyTimes="0;0.55;0.56;0.95;1"/></circle>
+    <text x="1088" y="64" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="800" fill="#22c55e">Open</text>
     
-
-    <rect x="0.5" y="0.5" width="1199" height="115" rx="16" fill="none" stroke="#2e1418"/>
+    <rect x="0.5" y="0.5" width="1199" height="117" rx="16" fill="none" stroke="#2a2d35"/>
   </g>
 </svg>
