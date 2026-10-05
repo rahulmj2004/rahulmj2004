@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="About me: Rahul M J, CS student from Thrissur, Kerala. I build AI-powered products and contribute to open source, mostly around healthcare.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050a14"/><stop offset="0.6" stop-color="#0d1330"/><stop offset="1" stop-color="#241f6e"/>
+    </linearGradient>
+    <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4ade80" stop-opacity="0"/><stop offset="0.85" stop-color="#4ade80" stop-opacity="0.06"/><stop offset="1" stop-color="#bbf7d0" stop-opacity="0.18"/>
+    </linearGradient>
+    <filter id="blur" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="50"/></filter>
+    <pattern id="lines" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#000000" fill-opacity="0.12"/></pattern>
+    <clipPath id="card"><rect width="1200" height="300" rx="18"/></clipPath>
+  </defs>
+  <g clip-path="url(#card)">
+    <rect width="1200" height="300" fill="url(#bg)"/>
+    <g filter="url(#blur)" opacity="0.55">
+      <circle cx="1020" cy="300" r="180" fill="#4ade80" opacity="0.5">
+        <animate attributeName="cx" dur="9s" repeatCount="indefinite" values="1020;660;1020" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
+      </circle>
+      <circle cx="120" cy="0" r="150" fill="#4f46e5">
+        <animate attributeName="cx" dur="11s" repeatCount="indefinite" values="120;420;120" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
+      </circle>
+    </g>
+    <rect width="1200" height="46" fill="#000000" fill-opacity="0.35"/>
+    <circle cx="34" cy="23" r="7" fill="#f87171"/><circle cx="58" cy="23" r="7" fill="#facc15"/><circle cx="82" cy="23" r="7" fill="#4ade80"><animate attributeName="opacity" dur="1.6s" repeatCount="indefinite" values="1;0.3;1"/></circle>
+    <text x="600" y="29" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" font-weight="600" fill="#94a3b8">rahul@github: ~/about</text>
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">
+      <text x="44" y="92" font-size="21" font-weight="600" fill="#4ade80">$<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.0326;0.9625"/></text>
+      <text x="69.41" y="92" font-size="21" font-weight="600" fill="#4ade80">w<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.0353;0.9625"/></text>
+      <text x="82.115" y="92" font-size="21" font-weight="600" fill="#4ade80">h<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.0367;0.9625"/></text>
+      <text x="94.82" y="92" font-size="21" font-weight="600" fill="#4ade80">o<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.038;0.9625"/></text>
+      <text x="107.525" y="92" font-size="21" font-weight="600" fill="#4ade80">a<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.0394;0.9625"/></text>
+      <text x="120.23" y="92" font-size="21" font-weight="600" fill="#4ade80">m<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.0408;0.9625"/></text>
+      <text x="132.935" y="92" font-size="21" font-weight="600" fill="#4ade80">i<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.0421;0.9625"/></text>
+      <text x="44" y="124" font-size="21" font-weight="600" fill="#e2f6ea">Rahul M J  //  CS student  //  Thrissur, Kerala<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.069;0.9625"/></text>
+      <text x="44" y="166" font-size="21" font-weight="600" fill="#4ade80">$<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.0704;0.9625"/></text>
+      <text x="69.41" y="166" font-size="21" font-weight="600" fill="#4ade80">c<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.0731;0.9625"/></text>
+      <text x="82.115" y="166" font-size="21" font-weight="600" fill="#4ade80">a<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.0744;0.9625"/></text>
+      <text x="94.82" y="166" font-size="21" font-weight="600" fill="#4ade80">t<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.0758;0.9625"/></text>
+      <text x="120.23" y="166" font-size="21" font-weight="600" fill="#4ade80">a<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.0785;0.9625"/></text>
+      <text x="132.935" y="166" font-size="21" font-weight="600" fill="#4ade80">b<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.0799;0.9625"/></text>
+      <text x="145.64" y="166" font-size="21" font-weight="600" fill="#4ade80">o<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.0812;0.9625"/></text>
+      <text x="158.345" y="166" font-size="21" font-weight="600" fill="#4ade80">u<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.0826;0.9625"/></text>
+      <text x="171.05" y="166" font-size="21" font-weight="600" fill="#4ade80">t<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.0839;0.9625"/></text>
+      <text x="183.755" y="166" font-size="21" font-weight="600" fill="#4ade80">.<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.0853;0.9625"/></text>
+      <text x="196.46" y="166" font-size="21" font-weight="600" fill="#4ade80">t<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.0867;0.9625"/></text>
+      <text x="209.165" y="166" font-size="21" font-weight="600" fill="#4ade80">x<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.088;0.9625"/></text>
+      <text x="221.87" y="166" font-size="21" font-weight="600" fill="#4ade80">t<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.0894;0.9625"/></text>
+      <text x="44" y="198" font-size="21" font-weight="600" fill="#e2f6ea">I build AI-powered products and contribute to open source,<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.1163;0.9625"/></text>
+      <text x="44" y="228" font-size="21" font-weight="600" fill="#e2f6ea">mostly around healthcare.<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.1319;0.9625"/></text>
+      <text x="44" y="270" font-size="21" font-weight="600" fill="#4ade80">$<animate attributeName="opacity" dur="16.0s" repeatCount="indefinite" calcMode="discrete" values="0;1;0" keyTimes="0;0.1176;0.9625"/></text>
+      <rect x="69.41" y="251.9" width="10.5" height="22.7" fill="#4ade80">
+        <animate attributeName="x" dur="16.0s" repeatCount="indefinite" calcMode="discrete" values="44;44;56.705;69.41;82.115;94.82;107.525;120.23;132.935;145.64;44;56.705;69.41;82.115;94.82;107.525;120.23;132.935;145.64;158.345;171.05;183.755;196.46;209.165;221.87;234.575;44;56.705;69.41;44" keyTimes="0;0.0312;0.0326;0.034;0.0353;0.0367;0.038;0.0394;0.0408;0.0421;0.069;0.0704;0.0717;0.0731;0.0744;0.0758;0.0771;0.0785;0.0799;0.0812;0.0826;0.0839;0.0853;0.0867;0.088;0.0894;0.1163;0.1176;0.119;0.9625"/>
+        <animate attributeName="y" dur="16.0s" repeatCount="indefinite" calcMode="discrete" values="73.94;73.94;73.94;73.94;73.94;73.94;73.94;73.94;73.94;73.94;147.94;147.94;147.94;147.94;147.94;147.94;147.94;147.94;147.94;147.94;147.94;147.94;147.94;147.94;147.94;147.94;251.94;251.94;251.94;73.94" keyTimes="0;0.0312;0.0326;0.034;0.0353;0.0367;0.038;0.0394;0.0408;0.0421;0.069;0.0704;0.0717;0.0731;0.0744;0.0758;0.0771;0.0785;0.0799;0.0812;0.0826;0.0839;0.0853;0.0867;0.088;0.0894;0.1163;0.1176;0.119;0.9625"/>
+        <animate attributeName="opacity" dur="0.8s" repeatCount="indefinite" calcMode="discrete" values="1;0" keyTimes="0;0.5"/>
+      </rect>
+    </g>
+    <rect width="1200" height="300" fill="url(#lines)"/>
+    <rect x="-140" y="0" width="140" height="300" fill="url(#sweep)"><animate attributeName="x" dur="5s" repeatCount="indefinite" values="-140;1200"/></rect>
+    <rect x="1" y="1" width="1198" height="298" rx="18" fill="none" stroke="#4ade80" stroke-opacity="0.3" stroke-width="2"/>
+    <rect x="2" y="2" width="1196" height="296" rx="18" fill="none" stroke="#4ade80" stroke-width="3" stroke-linecap="round" stroke-dasharray="220 2733.1">
+      <animate attributeName="stroke-dashoffset" dur="6s" repeatCount="indefinite" values="2953.1;0"/>
+    </rect>
+  </g>
+</svg>
