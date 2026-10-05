@@ -1,47 +1,47 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 232" width="1200" height="232" role="img" aria-label="CARE: I contribute to CARE by the Open Healthcare Network, a Digital Public Good used for healthcare delivery.">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0c0a20"/><stop offset="0.6" stop-color="#1a1140"/><stop offset="1" stop-color="#2a1452"/></linearGradient>
-    <linearGradient id="stripe" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="600" y2="0" spreadMethod="repeat"><stop offset="0" stop-color="#ff5fa2"/><stop offset="0.33" stop-color="#9d7bff"/><stop offset="0.66" stop-color="#5ce1ff"/><stop offset="1" stop-color="#ff5fa2"/></linearGradient>
-    <linearGradient id="energy" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ff5fa2"/><stop offset="0.55" stop-color="#9d7bff"/><stop offset="1" stop-color="#5ce1ff"/></linearGradient>
-    <linearGradient id="tail" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#5ce1ff" stop-opacity="0"/><stop offset="1" stop-color="#5ce1ff" stop-opacity="0.9"/></linearGradient>
-    <radialGradient id="htg" gradientUnits="userSpaceOnUse" cx="1200" cy="0" r="380"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#000000"/></radialGradient>
-    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse"><circle cx="5" cy="5" r="1.7" fill="#ffffff"/></pattern>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#060a13"/><stop offset="0.6" stop-color="#0b1322"/><stop offset="1" stop-color="#101a30"/></linearGradient>
+    <linearGradient id="stripe" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="600" y2="0" spreadMethod="repeat"><stop offset="0" stop-color="#38e1ff"/><stop offset="0.33" stop-color="#8b7bff"/><stop offset="0.66" stop-color="#34f5a4"/><stop offset="1" stop-color="#38e1ff"/></linearGradient>
+    <linearGradient id="energy" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8b7bff"/><stop offset="1" stop-color="#38e1ff"/></linearGradient>
+    <linearGradient id="tail" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#38e1ff" stop-opacity="0"/><stop offset="1" stop-color="#38e1ff" stop-opacity="0.9"/></linearGradient>
+    <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#38e1ff" stop-opacity="0"/><stop offset="1" stop-color="#38e1ff" stop-opacity="0.28"/></linearGradient>
+    <radialGradient id="htg" gradientUnits="userSpaceOnUse" cx="1200" cy="0" r="520"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#000000"/></radialGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#6aa8ff" stroke-width="1"/></pattern>
     <mask id="htm" maskUnits="userSpaceOnUse" x="0" y="0" width="1200" height="232"><rect width="1200" height="232" fill="url(#htg)"/></mask>
     <filter id="blur" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="55"/></filter>
     <filter id="soft" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="10"/></filter>
     <clipPath id="clip"><rect width="1200" height="232" rx="16"/></clipPath>
-    <path id="petal" d="M0 -8 C5 -6 6 2 1.5 7 L0 5.2 L-1.5 7 C-6 2 -5 -6 0 -8Z"/>
-    <path id="spark" d="M0 -10 Q0.9 -0.9 10 0 Q0.9 0.9 0 10 Q-0.9 0.9 -10 0 Q-0.9 -0.9 0 -10Z"/>
-    <g id="shuriken"><path d="M0 -15 L3.5 -5 L11 -11 L5 -3.5 L15 0 L5 3.5 L11 11 L3.5 5 L0 15 L-3.5 5 L-11 11 L-5 3.5 L-15 0 L-5 -3.5 L-11 -11 L-3.5 -5Z" fill="#dfe6ff" stroke="#6f7bb8" stroke-width="1"/><circle r="3" fill="#150f33"/></g>
   </defs>
   <g clip-path="url(#clip)">
     <rect width="1200" height="232" fill="url(#bg)"/>
-    <circle cx="960" cy="232" r="162" fill="#ff5fa2" opacity="0.17" filter="url(#blur)">
+    <circle cx="960" cy="232" r="162" fill="#8b7bff" opacity="0.16" filter="url(#blur)">
       <animate attributeName="cx" dur="14s" repeatCount="indefinite" values="960;600;960" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
     </circle>
-    <circle cx="240" cy="0" r="162" fill="#5ce1ff" opacity="0.09" filter="url(#blur)">
+    <circle cx="240" cy="0" r="162" fill="#38e1ff" opacity="0.10" filter="url(#blur)">
       <animate attributeName="cx" dur="18s" repeatCount="indefinite" values="240;520;240" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
     </circle>
-    <rect width="1200" height="232" fill="url(#dots)" mask="url(#htm)" opacity="0.13"/>
-    <text x="44" y="54" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="800" letter-spacing="3" fill="#ff5fa2">OPEN SOURCE<tspan dx="14" font-family="'Hiragino Sans', 'Yu Gothic', 'Noto Sans JP', 'Noto Sans CJK JP', Meiryo, sans-serif" font-size="12" font-weight="600" letter-spacing="2" fill="#8f86b8">オープンソース</tspan></text>
-    <text x="45" y="99" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="32" font-weight="900" fill="#ff5fa2" font-style="italic" opacity="0.85">CARE</text>
-    <text x="42" y="96" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="32" font-weight="900" fill="#fdf7ff" font-style="italic" stroke="#150f33" stroke-width="1.5" paint-order="stroke">CARE</text>
-    <text x="44" y="130" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" font-weight="400" fill="#d6cfe8" text-anchor="start">I contribute to CARE by the Open Healthcare Network, a Digital Public Good used for</text>
-    <text x="44" y="158" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" font-weight="400" fill="#d6cfe8" text-anchor="start">healthcare delivery.</text>
-    <rect x="44" y="183" width="177" height="27" rx="13.5" fill="#1b1440" stroke="#5b4a9c"/>
-    <text x="132.5" y="202" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" fill="#ffb7d5" text-anchor="middle">ohcnetwork/care_fe</text>
-    <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#ffd76a">
+    <rect width="1200" height="232" fill="url(#grid)" mask="url(#htm)" opacity="0.16"/>
+    <text x="44" y="54" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="800" letter-spacing="3" fill="#38e1ff">OPEN SOURCE<tspan dx="14" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" font-weight="500" letter-spacing="0" fill="#7f8ba3">$ git push</tspan></text>
+    <text x="43" y="96" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="32" font-weight="800" fill="#f2f6ff" text-anchor="start">CARE</text>
+    <text x="44" y="130" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" font-weight="400" fill="#c3cde0" text-anchor="start">I contribute to CARE by the Open Healthcare Network, a Digital Public Good used for</text>
+    <text x="44" y="158" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" font-weight="400" fill="#c3cde0" text-anchor="start">healthcare delivery.</text>
+    <rect x="44" y="183" width="177" height="27" rx="6" fill="#101a2c" stroke="#2c4468"/>
+    <text x="132.5" y="202" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" fill="#38e1ff" text-anchor="middle">ohcnetwork/care_fe</text>
+    <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#38e1ff">
       <text x="1122" y="202" text-anchor="end">View repository</text>
       <text x="1132" y="202">→<animateTransform attributeName="transform" type="translate" dur="0.9s" repeatCount="indefinite" values="0 0;9 0;0 0" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/></text>
     </g>
-    <g transform="translate(1150 44)"><use href="#spark" fill="#ffd76a" transform="scale(0)"><animateTransform attributeName="transform" type="scale" dur="2.6s" begin="0.0s" repeatCount="indefinite" values="0;1.0;0" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/></use></g><g transform="translate(1124 60)"><use href="#spark" fill="#5ce1ff" transform="scale(0)"><animateTransform attributeName="transform" type="scale" dur="2.1s" begin="0.7s" repeatCount="indefinite" values="0;0.6;0" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/></use></g><g transform="translate(1166 68)"><use href="#spark" fill="#ffb7d5" transform="scale(0)"><animateTransform attributeName="transform" type="scale" dur="3.0s" begin="1.3s" repeatCount="indefinite" values="0;0.5;0" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/></use></g>
-    <g opacity="0.88"><animateTransform attributeName="transform" type="translate" dur="9.9s" begin="-6.5s" repeatCount="indefinite" values="779 -16;718 116;613 248"/><g><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="6.1s" repeatCount="indefinite"/><use href="#petal" transform="scale(1.34)" fill="#ffd6e8"/></g></g>
-    <g opacity="0.86"><animateTransform attributeName="transform" type="translate" dur="10.0s" begin="-6.7s" repeatCount="indefinite" values="464 -16;385 116;308 248"/><g><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="3.2s" repeatCount="indefinite"/><use href="#petal" transform="scale(0.94)" fill="#ff8fbf"/></g></g>
-    <g opacity="0.63"><animateTransform attributeName="transform" type="translate" dur="13.7s" begin="-3.8s" repeatCount="indefinite" values="996 -16;943 116;865 248"/><g><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="4.1s" repeatCount="indefinite"/><use href="#petal" transform="scale(0.82)" fill="#ffb7d5"/></g></g>
-    <g opacity="0.50"><animateTransform attributeName="transform" type="translate" dur="8.5s" begin="-3.1s" repeatCount="indefinite" values="1178 -16;1157 116;1068 248"/><g><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="5.3s" repeatCount="indefinite"/><use href="#petal" transform="scale(1.06)" fill="#ff8fbf"/></g></g>
-    <g opacity="0.55"><animateTransform attributeName="transform" type="translate" dur="9.3s" begin="-1.0s" repeatCount="indefinite" values="721 -16;607 116;507 248"/><g><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="3.1s" repeatCount="indefinite"/><use href="#petal" transform="scale(0.79)" fill="#ffb7d5"/></g></g>
-    <g opacity="0.74"><animateTransform attributeName="transform" type="translate" dur="9.4s" begin="-1.8s" repeatCount="indefinite" values="459 -16;317 116;207 248"/><g><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="5.3s" repeatCount="indefinite"/><use href="#petal" transform="scale(1.11)" fill="#ff8fbf"/></g></g>
-    <g><animateTransform attributeName="transform" type="translate" from="-600 0" to="0 0" dur="5s" repeatCount="indefinite"/><rect x="0" width="1800" height="5" fill="url(#stripe)"/></g>
-    <rect x="0.5" y="0.5" width="1199" height="231" rx="16" fill="none" stroke="#3b2f66"/>
+    <g transform="translate(916 32)" fill="none" stroke-linejoin="round" stroke-linecap="round">
+      <path d="M0 40 H50 L58 30 L66 40 H84 L92 52 L102 4 L112 66 L120 40 H150 L160 28 L172 40 H240" stroke="#34f5a4" stroke-width="2" opacity="0.18"/>
+      <path d="M0 40 H50 L58 30 L66 40 H84 L92 52 L102 4 L112 66 L120 40 H150 L160 28 L172 40 H240" stroke="#34f5a4" stroke-width="2.4" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100"><animate attributeName="stroke-dashoffset" dur="3.2s" repeatCount="indefinite" values="100;0;0;-100" keyTimes="0;0.5;0.7;1"/></path>
+    </g>
+    <g><animateTransform attributeName="transform" type="translate" dur="12.7s" begin="-3.5s" repeatCount="indefinite" values="682 244;692 -14"/><animate attributeName="opacity" dur="12.7s" begin="-3.5s" repeatCount="indefinite" values="0;0.74;0.74;0" keyTimes="0;0.15;0.8;1"/><rect width="3.9" height="3.9" rx="0.8" fill="#38e1ff"/></g>
+    <g><animateTransform attributeName="transform" type="translate" dur="10.4s" begin="-2.9s" repeatCount="indefinite" values="392 244;407 -14"/><animate attributeName="opacity" dur="10.4s" begin="-2.9s" repeatCount="indefinite" values="0;0.47;0.47;0" keyTimes="0;0.15;0.8;1"/><text font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#38e1ff">0</text></g>
+    <g><animateTransform attributeName="transform" type="translate" dur="11.7s" begin="-9.6s" repeatCount="indefinite" values="882 244;911 -14"/><animate attributeName="opacity" dur="11.7s" begin="-9.6s" repeatCount="indefinite" values="0;0.72;0.72;0" keyTimes="0;0.15;0.8;1"/><rect width="3.4" height="3.4" rx="0.8" fill="#8b7bff"/></g>
+    <g><animateTransform attributeName="transform" type="translate" dur="13.9s" begin="-3.9s" repeatCount="indefinite" values="156 244;121 -14"/><animate attributeName="opacity" dur="13.9s" begin="-3.9s" repeatCount="indefinite" values="0;0.75;0.75;0" keyTimes="0;0.15;0.8;1"/><text font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#38e1ff">0</text></g>
+    <g><animateTransform attributeName="transform" type="translate" dur="10.6s" begin="-3.4s" repeatCount="indefinite" values="778 244;800 -14"/><animate attributeName="opacity" dur="10.6s" begin="-3.4s" repeatCount="indefinite" values="0;0.56;0.56;0" keyTimes="0;0.15;0.8;1"/><text font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#8b7bff">1</text></g>
+    <g><animateTransform attributeName="transform" type="translate" dur="7.2s" begin="-6.3s" repeatCount="indefinite" values="235 244;204 -14"/><animate attributeName="opacity" dur="7.2s" begin="-6.3s" repeatCount="indefinite" values="0;0.38;0.38;0" keyTimes="0;0.15;0.8;1"/><text font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" fill="#38e1ff">0</text></g>
+    <g><animateTransform attributeName="transform" type="translate" from="-600 0" to="0 0" dur="5s" repeatCount="indefinite"/><rect x="0" width="1800" height="4" fill="url(#stripe)"/></g>
+    <rect x="0.5" y="0.5" width="1199" height="231" rx="16" fill="none" stroke="#22304a"/>
   </g>
 </svg>
