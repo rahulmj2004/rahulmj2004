@@ -1,30 +1,46 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 204" width="1200" height="204" role="img" aria-label="Intelligent IoT Anomaly Detection: detecting anomalies in IoT sensor data with Python.">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#090a0d"/><stop offset="1" stop-color="#181a20"/></linearGradient>
-    <linearGradient id="beam" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff3b0" stop-opacity="0.55"/><stop offset="1" stop-color="#fff3b0" stop-opacity="0"/></linearGradient>
-    <linearGradient id="rev" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22c55e"/><stop offset="0.6" stop-color="#fbbf24"/><stop offset="1" stop-color="#e10600"/></linearGradient>
-    <pattern id="carbon" width="8" height="8" patternUnits="userSpaceOnUse"><path d="M0 8 L8 0" stroke="#ffffff" stroke-opacity="0.035" stroke-width="2"/></pattern>
-    <pattern id="chk" width="16" height="16" patternUnits="userSpaceOnUse"><rect width="16" height="16" fill="#0a0a0b"/><rect width="8" height="8" fill="#f5f5f4"/><rect x="8" y="8" width="8" height="8" fill="#f5f5f4"/>
-      <animateTransform attributeName="patternTransform" type="translate" from="0 0" to="16 0" dur="1.6s" repeatCount="indefinite"/></pattern>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0c0a20"/><stop offset="0.6" stop-color="#1a1140"/><stop offset="1" stop-color="#2a1452"/></linearGradient>
+    <linearGradient id="stripe" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="600" y2="0" spreadMethod="repeat"><stop offset="0" stop-color="#ff5fa2"/><stop offset="0.33" stop-color="#9d7bff"/><stop offset="0.66" stop-color="#5ce1ff"/><stop offset="1" stop-color="#ff5fa2"/></linearGradient>
+    <linearGradient id="energy" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ff5fa2"/><stop offset="0.55" stop-color="#9d7bff"/><stop offset="1" stop-color="#5ce1ff"/></linearGradient>
+    <linearGradient id="tail" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#5ce1ff" stop-opacity="0"/><stop offset="1" stop-color="#5ce1ff" stop-opacity="0.9"/></linearGradient>
+    <radialGradient id="htg" gradientUnits="userSpaceOnUse" cx="1200" cy="0" r="380"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#000000"/></radialGradient>
+    <pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse"><circle cx="5" cy="5" r="1.7" fill="#ffffff"/></pattern>
+    <mask id="htm" maskUnits="userSpaceOnUse" x="0" y="0" width="1200" height="204"><rect width="1200" height="204" fill="url(#htg)"/></mask>
     <filter id="blur" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="55"/></filter>
+    <filter id="soft" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="10"/></filter>
     <clipPath id="clip"><rect width="1200" height="204" rx="16"/></clipPath>
+    <path id="petal" d="M0 -8 C5 -6 6 2 1.5 7 L0 5.2 L-1.5 7 C-6 2 -5 -6 0 -8Z"/>
+    <path id="spark" d="M0 -10 Q0.9 -0.9 10 0 Q0.9 0.9 0 10 Q-0.9 0.9 -10 0 Q-0.9 -0.9 0 -10Z"/>
+    <g id="shuriken"><path d="M0 -15 L3.5 -5 L11 -11 L5 -3.5 L15 0 L5 3.5 L11 11 L3.5 5 L0 15 L-3.5 5 L-11 11 L-5 3.5 L-15 0 L-5 -3.5 L-11 -11 L-3.5 -5Z" fill="#dfe6ff" stroke="#6f7bb8" stroke-width="1"/><circle r="3" fill="#150f33"/></g>
   </defs>
   <g clip-path="url(#clip)">
     <rect width="1200" height="204" fill="url(#bg)"/>
-    <rect width="1200" height="204" fill="url(#carbon)"/>
-    <circle cx="960" cy="204" r="143" fill="#e10600" opacity="0.2" filter="url(#blur)">
+    <circle cx="960" cy="204" r="142" fill="#ff5fa2" opacity="0.17" filter="url(#blur)">
       <animate attributeName="cx" dur="14s" repeatCount="indefinite" values="960;600;960" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
     </circle>
-    <text x="44" y="54" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="800" letter-spacing="3" fill="#e10600">PROJECT</text>
-    <text x="42" y="96" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="32" font-weight="900" font-style="italic" fill="#f5f5f4" text-anchor="start">Intelligent IoT Anomaly Detection</text>
-    <text x="44" y="130" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" font-weight="400" fill="#c4c7cf" text-anchor="start">Detecting anomalies in IoT sensor data with Python.</text>
-    <rect x="44" y="155" width="74" height="27" rx="6" fill="#1b1d23" stroke="#3a3d46"/>
-    <text x="81" y="174" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" fill="#c4c7cf" text-anchor="middle">Python</text>
-    <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#fbbf24">
+    <circle cx="240" cy="0" r="142" fill="#5ce1ff" opacity="0.09" filter="url(#blur)">
+      <animate attributeName="cx" dur="18s" repeatCount="indefinite" values="240;520;240" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/>
+    </circle>
+    <rect width="1200" height="204" fill="url(#dots)" mask="url(#htm)" opacity="0.13"/>
+    <text x="44" y="54" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="800" letter-spacing="3" fill="#ff5fa2">PROJECT<tspan dx="14" font-family="'Hiragino Sans', 'Yu Gothic', 'Noto Sans JP', 'Noto Sans CJK JP', Meiryo, sans-serif" font-size="12" font-weight="600" letter-spacing="2" fill="#8f86b8">プロジェクト</tspan></text>
+    <text x="45" y="99" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="32" font-weight="900" fill="#ff5fa2" font-style="italic" opacity="0.85">Intelligent IoT Anomaly Detection</text>
+    <text x="42" y="96" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="32" font-weight="900" fill="#fdf7ff" font-style="italic" stroke="#150f33" stroke-width="1.5" paint-order="stroke">Intelligent IoT Anomaly Detection</text>
+    <text x="44" y="130" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" font-weight="400" fill="#d6cfe8" text-anchor="start">Detecting anomalies in IoT sensor data with Python.</text>
+    <rect x="44" y="155" width="74" height="27" rx="13.5" fill="#1b1440" stroke="#5b4a9c"/>
+    <text x="81" y="174" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13.5" fill="#ffb7d5" text-anchor="middle">Python</text>
+    <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#ffd76a">
       <text x="1122" y="174" text-anchor="end">View repository</text>
       <text x="1132" y="174">→<animateTransform attributeName="transform" type="translate" dur="0.9s" repeatCount="indefinite" values="0 0;9 0;0 0" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/></text>
     </g>
-    <rect width="1200" height="8" fill="url(#chk)"/><rect y="8" width="1200" height="2" fill="#e10600"/>
-    <rect x="0.5" y="0.5" width="1199" height="203" rx="16" fill="none" stroke="#2a2d35"/>
+    <g transform="translate(1150 44)"><use href="#spark" fill="#ffd76a" transform="scale(0)"><animateTransform attributeName="transform" type="scale" dur="2.6s" begin="0.0s" repeatCount="indefinite" values="0;1.0;0" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/></use></g><g transform="translate(1124 60)"><use href="#spark" fill="#5ce1ff" transform="scale(0)"><animateTransform attributeName="transform" type="scale" dur="2.1s" begin="0.7s" repeatCount="indefinite" values="0;0.6;0" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/></use></g><g transform="translate(1166 68)"><use href="#spark" fill="#ffb7d5" transform="scale(0)"><animateTransform attributeName="transform" type="scale" dur="3.0s" begin="1.3s" repeatCount="indefinite" values="0;0.5;0" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1"/></use></g>
+    <g opacity="0.84"><animateTransform attributeName="transform" type="translate" dur="14.3s" begin="-7.1s" repeatCount="indefinite" values="158 -16;30 102;-70 220"/><g><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="5.5s" repeatCount="indefinite"/><use href="#petal" transform="scale(0.94)" fill="#ff8fbf"/></g></g>
+    <g opacity="0.79"><animateTransform attributeName="transform" type="translate" dur="10.6s" begin="-0.0s" repeatCount="indefinite" values="719 -16;686 102;600 220"/><g><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="5.6s" repeatCount="indefinite"/><use href="#petal" transform="scale(1.06)" fill="#ff8fbf"/></g></g>
+    <g opacity="0.51"><animateTransform attributeName="transform" type="translate" dur="9.4s" begin="-0.8s" repeatCount="indefinite" values="1122 -16;1086 102;987 220"/><g><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="3.4s" repeatCount="indefinite"/><use href="#petal" transform="scale(1.19)" fill="#ff8fbf"/></g></g>
+    <g opacity="0.62"><animateTransform attributeName="transform" type="translate" dur="9.1s" begin="-2.8s" repeatCount="indefinite" values="122 -16;-15 102;-132 220"/><g><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="6.3s" repeatCount="indefinite"/><use href="#petal" transform="scale(1.07)" fill="#ffd6e8"/></g></g>
+    <g opacity="0.67"><animateTransform attributeName="transform" type="translate" dur="10.0s" begin="-2.9s" repeatCount="indefinite" values="786 -16;629 102;538 220"/><g><animateTransform attributeName="transform" type="rotate" from="0" to="-360" dur="3.3s" repeatCount="indefinite"/><use href="#petal" transform="scale(1.25)" fill="#ff8fbf"/></g></g>
+    <g opacity="0.52"><animateTransform attributeName="transform" type="translate" dur="11.1s" begin="-7.8s" repeatCount="indefinite" values="148 -16;75 102;-41 220"/><g><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="3.3s" repeatCount="indefinite"/><use href="#petal" transform="scale(0.83)" fill="#ff8fbf"/></g></g>
+    <g><animateTransform attributeName="transform" type="translate" from="-600 0" to="0 0" dur="5s" repeatCount="indefinite"/><rect x="0" width="1800" height="5" fill="url(#stripe)"/></g>
+    <rect x="0.5" y="0.5" width="1199" height="203" rx="16" fill="none" stroke="#3b2f66"/>
   </g>
 </svg>
