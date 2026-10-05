@@ -1,39 +1,24 @@
-<img src="./banner.svg" alt="Hey there, I'm Rahul M J" width="100%" />
+<img src="./banner.svg" alt="Hey there, I'm Rahul M J. CS student from Kerala, building AI for healthcare, open-source contributor." width="100%" />
 
-<h1 align="center">Hey there! I'm Rahul 👋</h1>
-
-<p align="center">
-  <a href="https://github.com/rahulmj2004"><img src="https://img.shields.io/badge/rahulmj2004-181717?logo=github&logoColor=white" alt="GitHub" /></a>
-  <img src="https://img.shields.io/badge/Thrissur%2C%20Kerala-5b5bd6" alt="Thrissur, Kerala" />
-  <!-- Add your own links here, for example:
-  <a href="https://www.linkedin.com/in/YOUR-HANDLE"><img src="https://img.shields.io/badge/YOUR--HANDLE-0A66C2" alt="LinkedIn" /></a>
-  -->
+<p>
+  <img src="./assets/h-about.svg" alt="About me" width="100%" />
+  <img src="./assets/about.svg" alt="Rahul M J, CS student from Thrissur, Kerala. I build AI-powered products and contribute to open source, mostly around healthcare." width="100%" />
 </p>
 
----
+<p>
+  <img src="./assets/h-work.svg" alt="What I'm working on" width="100%" />
+  <a href="https://github.com/rahulmj2004/RxGuard"><img src="./assets/p-rxguard.svg" alt="RxGuard: a prescription review system for pharmacists. It flags medication-safety concerns and backs each one with evidence, while the pharmacist makes the final call." width="100%" /></a>
+  <a href="https://github.com/rahulmj2004/intelligent-iot-anomaly-detection-v2"><img src="./assets/p-iot.svg" alt="Intelligent IoT Anomaly Detection: detecting anomalies in IoT sensor data with Python." width="100%" /></a>
+</p>
 
-### ✨ Building AI products for healthcare
+<p>
+  <img src="./assets/h-oss.svg" alt="Open source" width="100%" />
+  <a href="https://github.com/ohcnetwork/care_fe"><img src="./assets/o-care.svg" alt="I contribute to CARE by the Open Healthcare Network, a Digital Public Good used for healthcare delivery." width="100%" /></a>
+  <a href="https://github.com/ohcnetwork/care_fe/pull/16943"><img src="./assets/o-pr-16943.svg" alt="Pull request #16943 to ohcnetwork/care_fe (open): show schedule exception reasons in a tooltip" width="100%" /></a>
+  <a href="https://github.com/ohcnetwork/care_fe/pull/16880"><img src="./assets/o-pr-16880.svg" alt="Pull request #16880 to ohcnetwork/care_fe (open): enforce patient notes permissions" width="100%" /></a>
+</p>
 
-I'm a Computer Science student from Thrissur, Kerala. I build AI-powered products and contribute to open source, mostly around healthcare.
-
----
-
-### 🌱 What I'm working on
-
-- **[RxGuard](https://github.com/rahulmj2004/RxGuard):** a prescription review system for pharmacists. It flags medication-safety concerns and backs each one with evidence, while the pharmacist makes the final call.
-- **[Intelligent IoT Anomaly Detection](https://github.com/rahulmj2004/intelligent-iot-anomaly-detection-v2):** detecting anomalies in IoT sensor data with Python.
-
----
-
-### 🤝 Open source
-
-I contribute to [CARE](https://github.com/ohcnetwork/care_fe) by the Open Healthcare Network, a Digital Public Good used for healthcare delivery.
-
-- [#16943](https://github.com/ohcnetwork/care_fe/pull/16943): show schedule exception reasons in a tooltip
-- [#16880](https://github.com/ohcnetwork/care_fe/pull/16880): enforce patient notes permissions
-
----
-
-### 🛠 Tools I use
-
-<img src="./tools.svg" alt="Tools I use: Python, Java, TypeScript, React, Django, FastAPI" width="100%" />
+<p>
+  <img src="./assets/h-tools.svg" alt="Tools I use" width="100%" />
+  <img src="./tools.svg" alt="Python, Java, TypeScript, React, Django, FastAPI" width="100%" />
+</p>
