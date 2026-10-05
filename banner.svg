@@ -38,22 +38,6 @@
     <clipPath id="card">
       <rect width="1200" height="320" rx="18"/>
     </clipPath>
-    <!-- rotating tagline: each line wipes in like typing, holds, then clears (9s cycle) -->
-    <clipPath id="c1">
-      <rect x="60" y="216" height="40" width="560">
-        <animate attributeName="width" dur="9s" repeatCount="indefinite" values="0;560;560;0;0" keyTimes="0;0.12;0.30;0.333;1"/>
-      </rect>
-    </clipPath>
-    <clipPath id="c2">
-      <rect x="60" y="216" height="40" width="0">
-        <animate attributeName="width" dur="9s" repeatCount="indefinite" values="0;0;560;560;0;0" keyTimes="0;0.333;0.453;0.633;0.666;1"/>
-      </rect>
-    </clipPath>
-    <clipPath id="c3">
-      <rect x="60" y="216" height="40" width="0">
-        <animate attributeName="width" dur="9s" repeatCount="indefinite" values="0;0;560;560;0" keyTimes="0;0.666;0.786;0.966;1"/>
-      </rect>
-    </clipPath>
   </defs>
 
   <g clip-path="url(#card)">
@@ -153,9 +137,18 @@
       <text x="64" y="112" font-size="44" font-weight="300" fill="#c7d2fe">Hey there,</text>
       <text x="62" y="190" font-size="76" font-weight="800" fill="url(#name)">I’m Rahul M J</text>
       <g font-size="24" font-weight="500" fill="#a5f3fc">
-        <text x="66" y="244" clip-path="url(#c1)">&gt; CS student from Kerala</text>
-        <text x="66" y="244" clip-path="url(#c2)">&gt; Building AI for healthcare</text>
-        <text x="66" y="244" clip-path="url(#c3)">&gt; Open-source contributor</text>
+        <text x="66" y="244" opacity="1">&gt; CS student from Kerala
+          <animate attributeName="opacity" dur="9s" repeatCount="indefinite" values="1;1;0;0;1" keyTimes="0;0.29;0.333;0.96;1"/>
+          <animateTransform attributeName="transform" type="translate" dur="9s" repeatCount="indefinite" values="0 0;0 0;0 -10;0 10;0 0" keyTimes="0;0.29;0.333;0.96;1"/>
+        </text>
+        <text x="66" y="244" opacity="0">&gt; Building AI for healthcare
+          <animate attributeName="opacity" dur="9s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.333;0.373;0.623;0.666;1"/>
+          <animateTransform attributeName="transform" type="translate" dur="9s" repeatCount="indefinite" values="0 10;0 10;0 0;0 0;0 -10;0 -10" keyTimes="0;0.333;0.373;0.623;0.666;1"/>
+        </text>
+        <text x="66" y="244" opacity="0">&gt; Open-source contributor
+          <animate attributeName="opacity" dur="9s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.666;0.706;0.917;0.96;1"/>
+          <animateTransform attributeName="transform" type="translate" dur="9s" repeatCount="indefinite" values="0 10;0 10;0 0;0 0;0 -10;0 -10" keyTimes="0;0.666;0.706;0.917;0.96;1"/>
+        </text>
       </g>
     </g>
 
