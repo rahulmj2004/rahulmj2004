@@ -36,8 +36,4 @@ I contribute to [CARE](https://github.com/ohcnetwork/care_fe) by the Open Health
 
 ### 🛠 Tools I use
 
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)
-![Django](https://img.shields.io/badge/Django-092E20?logo=django&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
+<img src="./tools.svg" alt="Tools I use: Python, Java, TypeScript, React, Django, FastAPI" width="100%" />
